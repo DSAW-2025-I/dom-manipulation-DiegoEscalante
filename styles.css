@@ -10,7 +10,7 @@ body{
 
 .carousel{
     display: flex;
-    gap: 4rem;
+    gap: 3rem;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -27,4 +27,8 @@ body{
     width: 50%;
     height: auto;
     border: 2px solid black;
+}
+
+.left-arrow{
+    position:relative;
 }
