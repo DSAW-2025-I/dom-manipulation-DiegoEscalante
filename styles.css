@@ -1,0 +1,30 @@
+body{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background: papayawhip; /* Just to visualize the extent */
+}
+
+.carousel{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.carousel button{
+    width: 15%;
+    height: 15%;
+}
+
+.image-carousel{
+    width: 50%;
+    height: auto;
+    border: 2px solid black;
+}
