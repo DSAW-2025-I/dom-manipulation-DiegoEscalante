@@ -23,12 +23,44 @@ body{
     height: 15%;
 }
 
+.carousel button img{
+    height: 75%;
+    width: auto;
+
+}
+
 .image-carousel{
     width: 50%;
-    height: auto;
+    height: 50%;
     border: 2px solid black;
 }
 
-.left-arrow{
-    position:relative;
+
+
+@media (max-width: 320px) {
+    .carousel{
+        flex-direction: column;
+    }
+    .image-carousel{
+        height: 30%;
+        width: 75%;
+    }
+    .carousel button{
+        width: 50%;
+
+    }
+}
+
+@media (max-width:768px){
+    .carousel{
+        flex-direction: column;
+    }
+    .image-carousel{
+        height: 30%;
+        width: 75%;
+    }
+    .carousel button{
+        width: 40%;
+
+    }
 }
