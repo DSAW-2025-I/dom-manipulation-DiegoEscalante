@@ -1,0 +1,66 @@
+body{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background: papayawhip; /* Just to visualize the extent */
+}
+
+.carousel{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.carousel button{
+    width: 15%;
+    height: 15%;
+}
+
+.carousel button img{
+    height: 75%;
+    width: auto;
+
+}
+
+.image-carousel{
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+}
+
+
+
+@media (max-width: 320px) {
+    .carousel{
+        flex-direction: column;
+    }
+    .image-carousel{
+        height: 30%;
+        width: 75%;
+    }
+    .carousel button{
+        width: 50%;
+
+    }
+}
+
+@media (max-width:768px){
+    .carousel{
+        flex-direction: column;
+    }
+    .image-carousel{
+        height: 30%;
+        width: 75%;
+    }
+    .carousel button{
+        width: 40%;
+
+    }
+}
